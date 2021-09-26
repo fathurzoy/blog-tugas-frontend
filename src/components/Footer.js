@@ -23,7 +23,7 @@ const Footer = () => (
       ></i>{" "}
       <i
         className="fab fa-instagram"
-        onClick={() => window.open("https://twitter.com/fathurzoy", "_blank")}
+        onClick={() => window.open("https://instagram.com/fathurzoy", "_blank")}
       ></i>
     </span>
   </footer>
