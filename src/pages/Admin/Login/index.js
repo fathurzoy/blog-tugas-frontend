@@ -54,7 +54,7 @@ class Login extends React.Component {
         }
         // If user data returned is invalid, then redirect to the login page once again
         else {
-          window.location = "/fathurzoy/login";
+          // window.location = "/fathurzoy/login";
         }
       })
       .catch((err) => console.error(err));
