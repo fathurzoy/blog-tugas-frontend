@@ -49,12 +49,12 @@ class Login extends React.Component {
 
           // If user data is stored in the session Storage, then reload page to update Navbar component appropriately
           if (count === 1) {
-            // window.location.reload();
+            window.location.reload();
           }
         }
         // If user data returned is invalid, then redirect to the login page once again
         else {
-          // window.location = "/fathurzoy/login";
+          window.location = "/fathurzoy/login";
         }
       })
       .catch((err) => console.error(err));
@@ -63,7 +63,7 @@ class Login extends React.Component {
   // Google login failure callback
   failureGoogleLogin(response) {
     console.error(response);
-    // window.location = "/fathurzoy/login";
+    window.location = "/fathurzoy/login";
   }
 
   render() {
